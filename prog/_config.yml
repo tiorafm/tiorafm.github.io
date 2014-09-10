@@ -1,0 +1,7 @@
+name: Emanuel Valero, Biologist and Computer fan
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+
+syntax-highlighting:
+  enabled : true
+  css: syntax.css
