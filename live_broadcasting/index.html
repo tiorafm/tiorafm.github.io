@@ -10,9 +10,11 @@ title: Señal en Vivo
 	<hr/>
 	
 	<script type="text/javascript">
-		$(document).ready(function() {
-	    		$('#radio').load('tiorafm.listen2myradio.com');
-		});
+		$(document).ready(function(){
+			$.get("http://tiorafm.listen2myradio.com/", function(data) {
+		    		$("#radio").html(data);
+			});
+		}); 
 	</script>
 	
 	<div id="radio">
