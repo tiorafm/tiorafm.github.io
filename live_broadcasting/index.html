@@ -9,9 +9,11 @@ title: Señal en Vivo
 	
 	<hr/>
 	
-	<div id="repro"></div>
-
-	<script>
-		$( "#repro" ).load( "http://tiorafm.listen2myradio.com/" );
-	</script>
+	<object width='180' height='60' bgcolor='#FFFFFF'>
+	<param name='movie' value='ffmp3-config.swf'/>
+	<param name='flashvars' value='url=http://217.147.94.171:3706/stream.mp3&lang=en&codec=mp3&volume=100&tracking=true&skin=ffmp3-mcclean.xml&title='/>
+	<param name='wmode' value='window'/>
+	<param name='scale' value='noscale'/>
+	<embed src='ffmp3-config.swf' flashvars='url=http://217.147.94.171:3706/stream.mp3&lang=en&codec=mp3&volume=100&tracking=true&skin=ffmp3-mcclean.xml&title=' width='180' scale='noscale' height='60' wmode='window' bgcolor='#FFFFFF' type='application/x-shockwave-flash'/>
+	</object>
 </div>
