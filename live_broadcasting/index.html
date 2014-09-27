@@ -3,10 +3,6 @@ layout: default
 title: Señal en Vivo
 ---
 
-<script>
-	$( "#repro" ).load( "http://tiorafm.listen2myradio.com/" );
-</script>
-
 <div class="home-cont">
 
 	<h2> {{ page.title }} </h2>
@@ -15,4 +11,7 @@ title: Señal en Vivo
 	
 	<div id="repro"></div>
 
+	<script>
+		$( "#repro" ).load( "http://tiorafm.listen2myradio.com/" );
+	</script>
 </div>
